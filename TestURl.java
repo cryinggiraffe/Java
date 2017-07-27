@@ -12,7 +12,7 @@ public class TestURL {
 		}
 		
 		is.close();
-		
+		//
 		URLConnection urlConnection = url.openConnection();
 		InputStream is1 = urlConnection.getInputStream();
 		FileOutputStream fos = new FileOutputStream(new File("down.txt"));
