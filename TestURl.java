@@ -12,7 +12,8 @@ public class TestURL {
 		}
 		
 		is.close();
-		//
+		
+		//需要向服务端写入
 		URLConnection urlConnection = url.openConnection();
 		InputStream is1 = urlConnection.getInputStream();
 		FileOutputStream fos = new FileOutputStream(new File("down.txt"));
