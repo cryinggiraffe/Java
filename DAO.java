@@ -16,6 +16,7 @@ public class DAO {
 	
 	//insert、update、delete
 	public void update(String sql, Object ...args){
+
 		Connection connection = null;
 		PreparedStatement preparedStatement = null;
 		
